@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir.eot') format('eot'),
+     url('../fonts/vazir.ttf') format('truetype'),
+    url('../fonts/vazir.woff') format('woff'),
+    url('../fonts/vazir.woff2') format('woff2');
+}
+*{
+    font-family: "vazir";
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size:13px;
+}
+body{
+    width: 100%;
+    height:default;
+}
+.container{
+    border: 2px solid black;
+    width:75%;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.header{
+    height: 18%;
+}
+
+.header > div ,
+.main-content > div,
+.footer > div{
+    height: 100%;
+}
+.main-content{
+    height: 64%;
+}
+.footer{
+    height: 18%;
+}
+
+.header .schools-info{
+    width: 28%;
+}
+.header .educate-info{
+    width: 28%;
+}
+.header .personal-info{
+    width: 28%;
+}
+.header .nothing{
+    width: 10%;
+}
+
+.grade-table{
+    width: 40%;
+}
+.grade-details{
+    width: 40%;
+}
+.considerations{
+    width: 15%;
+}
+.footer .average-info{
+    width: 30%;
+}
+.footer .cetification-info{
+    width: 70%;
+}
+
+.header .content{
+    padding-right: 3px;
+}
+table{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+thead ,tbody{
+    padding: 0px;
+    margin: 0px;
+}
+.footer .average-info{
+    width: 27%;
+}
+.marg-right{
+    margin-right: 50px;
+}
+.footer .cetification-info{
+    width: 70%;
+}
+ .content{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.grade-details table,
+.grade-table table,
+.average-info table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.considerations table,
+.considerations table th{
+    border: 1px solid black;
+}
+
+table td,
+table th{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+table td:first-child ,
+table th:first-child{
+    border-right: none;
+}
+table td:last-child,
+table th:last-child{ 
+    border-left: none;
+}
+.schools-info .content{
+    text-align: center;
+} 
+ td , th{
+    text-align: center;
+    margin: 0px;
+}
+thead{
+    background-color: rgb(209, 206, 206)!important;
+    height: 50px;
+}
+
+tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+.average-table td ,
+.average-table th ,
+.average-table div ,
+.average-table span 
+{
+    font-size: 11px;
+}
+th div{
+    height: 50%;
+}
+th div span{
+    border-top: 1px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+th div span:first-child{
+    border-left: 1px solid black;
+}
+.first-row span{
+    font-weight: bold;
+    padding: 0px 10px;
+}
+.average-table td{
+    border-top: 1px solid black;
+}
+@media screen and (max-width: 1800px) {
+    *{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    *{
+        font-size: 12px;
+    }
+    .marg-right{
+        margin-right: 23px;
+    }
+}
